@@ -1,0 +1,49 @@
+@font-face{
+    font-family: pixel;
+    src: url('fonts/slkscr.ttf');
+}
+
+body #fondo{
+   position: absolute;
+   width: 670px;
+   height: 1191px;
+   z-index: 0;
+  
+}
+
+body #titulo{
+    position: absolute;
+    z-index: 1;
+    font-size: 70px;
+    top: 250px;
+    left: 40px;
+    width: 350px;
+    
+
+}
+#elem div{
+    position: absolute;
+    font-family: pixel;
+    font-size: 20px;
+    top: 1015px;
+    height: 50px;
+    width: 550px;
+    margin-left: 60px;
+    
+}
+
+#elem img{
+    position: absolute;
+    left: 80px;
+    top: 420px;
+    
+    width: 550px;
+    height: 550px;
+}
+#elem img:hover{
+    left: 20px;
+    top: 400px;
+    transition: 1s;
+    width: 650px;
+    height: 650px;
+}
